@@ -1,6 +1,12 @@
 package TemperatureConverter;
 
-public class FahrenheitConverterAbstract extends AbstractBaseConverter {
+public final class FahrenheitConverterAbstract extends AbstractBaseConverter {
+
+    public FahrenheitConverterAbstract(double i) {
+        super();
+        setTemperature(i);
+    }
+
     @Override
     public <T extends AbstractBaseConverter> AbstractBaseConverter convert(T baseConverter) {
         double t = this.getTemperature();

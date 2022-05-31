@@ -1,6 +1,6 @@
 package TemperatureConverter;
 
-public class CelsiusConverterAbstract extends AbstractBaseConverter {
+public final class CelsiusConverterAbstract extends AbstractBaseConverter {
 
     @Override
     public <T extends AbstractBaseConverter> AbstractBaseConverter convert(T baseConverter) {

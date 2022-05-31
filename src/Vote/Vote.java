@@ -42,7 +42,6 @@ public class Vote extends VoteMath {
     @Override
     public String toString() {
         return "Vote{" +
-                "iVotings=" + Arrays.toString(iVotings) +
                 "} " + super.toString();
     }
 }

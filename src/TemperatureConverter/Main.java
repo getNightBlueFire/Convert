@@ -13,13 +13,11 @@ public class Main {
         of.setVisible(true);
         AbstractBaseConverter celsius = new CelsiusConverterAbstract();
         AbstractBaseConverter kelvin = new KelvinConverterAbstract();
-        AbstractBaseConverter fahrenheit = new FahrenheitConverterAbstract();
-        fahrenheit.setTemperature(50);
-        fahrenheit.convert(fahrenheit).convert(kelvin).convert(fahrenheit).showTemperature();
-        fahrenheit.convert(celsius).convert(kelvin).convert(fahrenheit).showTemperature();
-        celsius.setTemperature(273);
-        celsius.convert(kelvin).convert(celsius).showTemperature();
-        celsius.convert(kelvin).convert(fahrenheit).showTemperature();
+        AbstractBaseConverter fahrenheit = new FahrenheitConverterAbstract(10);
+
+        celsius.setTemperature(50);
+        celsius.convert(kelvin).warmUp(50).convert(fahrenheit).warmUp(-50)
+                .convert(celsius).warmUp(-50).showTemperature();
 
     }
 }

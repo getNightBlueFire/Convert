@@ -23,4 +23,9 @@ abstract public class AbstractBaseConverter implements BaseConverter {
         System.out.println(String.format("%.2f", this.getTemperature()) + name());
     }
 
+    @Override
+    public AbstractBaseConverter warmUp(double temperature) {
+        this.temperature += temperature;
+        return this;
+    }
 }

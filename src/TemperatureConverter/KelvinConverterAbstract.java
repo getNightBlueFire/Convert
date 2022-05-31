@@ -1,6 +1,6 @@
 package TemperatureConverter;
 
-public class KelvinConverterAbstract extends AbstractBaseConverter {
+public final class KelvinConverterAbstract extends AbstractBaseConverter {
     @Override
     public <T extends AbstractBaseConverter> AbstractBaseConverter convert(T baseConverter) {
         double t = this.getTemperature();

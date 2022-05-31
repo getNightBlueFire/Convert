@@ -14,5 +14,11 @@ public class Main {
         iVoting.registration(vote3);
 
         iVoting.soutVoters();
+
+        Single test = Single.getInstance("a");
+        Single test1 = Single.getInstance("b");
+
+        System.out.println(test.getA());
+        System.out.println(test1.getA());
     }
 }

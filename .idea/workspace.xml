@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bb2cab8-07b2-4802-bacb-7d2010901bdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/AbstractBaseConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/CelsiusConverterAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/FahrenheitConverterAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/KelvinConverterAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/OvalComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/RectangleComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vote/Single.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/AbstractBaseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter/AbstractBaseConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/BaseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter/BaseConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/IBaseConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/CelsiusConverterAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter/CelsiusConverterAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/FahrenheitConverterAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter/FahrenheitConverterAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/KelvinConverterAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter/KelvinConverterAbstract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/MyMathConvert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vote/IVoting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote/IVoting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vote/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vote/Vote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote/Vote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Vote/VoteMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote/VoteMath.java" afterDir="false" />
@@ -176,11 +170,6 @@
           <url>file://$PROJECT_DIR$/src/Vote/Vote.java</url>
           <line>34</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Vote/Vote.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Vote/Vote.java</url>
