@@ -25,15 +25,6 @@ public abstract class VoteMath implements IVoting{
         this.password = password;
     }
 
-
-   /* public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id++;
-    }*/
-
     public String getName() {
         return name;
     }
@@ -56,5 +47,16 @@ public abstract class VoteMath implements IVoting{
 
     public void setVot(int vot) {
         this.vot = vot;
+    }
+
+    @Override
+    public String toString() {
+        return "VoteMath{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", vot=" + vot +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

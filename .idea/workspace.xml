@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bb2cab8-07b2-4802-bacb-7d2010901bdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/BaseConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/IBaseConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/MyMathConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector/IVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vector/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vote/IVoting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vote/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vote/Vote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vote/VoteMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/AbstractBaseConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/CelsiusConverterAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/FahrenheitConverterAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/KelvinConverterAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/OvalComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemperatureConverter/RectangleComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/BaseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter/BaseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/IBaseConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperatureConverter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureConverter/MyMathConvert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vote/IVoting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote/IVoting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vote/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vote/Vote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote/Vote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vote/VoteMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vote/VoteMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +39,33 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="29ldNR4teN5eSQaDIFFuWSAuCWf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Java Projects/github/My homework/HW8/HW8/src/TempConvert",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Java Projects/github/My homework/HW8/HW8/src/TempConvert&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TemperatureConverter" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java Projects\github\My homework\HW8\HW8\src\TempConvert" />
     </key>
@@ -65,7 +73,7 @@
       <recent name="Vote" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Vote.Main">
+  <component name="RunManager" selected="Application.TemperatureConverter.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Vector.Main" />
       <module name="HW8" />
@@ -107,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Vote.Main" />
         <item itemvalue="Application.TemperatureConverter.Main" />
+        <item itemvalue="Application.Vote.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -125,6 +133,10 @@
       <workItem from="1653728147550" duration="29258000" />
       <workItem from="1653805125926" duration="7996000" />
       <workItem from="1653841086860" duration="20307000" />
+      <workItem from="1653895645628" duration="3208000" />
+      <workItem from="1653914309157" duration="2899000" />
+      <workItem from="1653917231249" duration="2223000" />
+      <workItem from="1653975737608" duration="4465000" />
     </task>
     <servers />
   </component>
@@ -147,18 +159,33 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Vote/Vote.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="8" />
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Vote/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Vote/Vote.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Vote/Vote.java</url>
           <line>34</line>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Vote/Vote.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="10" />
+          <line>44</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Vote/Vote.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
